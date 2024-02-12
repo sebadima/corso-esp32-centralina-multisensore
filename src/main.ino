@@ -1,7 +1,3 @@
-// https://rntlab.com/question/how-to-know-and-or-set-the-wifi-channel-on-an-esp32/?utm_source=pocket_saves
-// https://github.com/HarringayMakerSpace/ESP-Now/blob/master/espnow-sensor-minimal/espnow-sensor-minimal.ino
-// https://randomnerdtutorials.com/esp32-esp-now-wi-fi-web-server/
-
 #include <Arduino.h>
 #include "DHT.h"
 #include "soc/soc.h"
