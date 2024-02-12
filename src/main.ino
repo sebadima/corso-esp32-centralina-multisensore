@@ -65,6 +65,7 @@ void loop() {
   Serial.println(g_1);
   Serial.print("Gas_2: ");
   Serial.println(g_2);
+  Serial.println("");
 
   delay(2000);
 }
