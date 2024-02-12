@@ -3,11 +3,6 @@
 #include "soc/soc.h"
 #include "soc/rtc_cntl_reg.h"
 
-
-// Indirizzi MAC dei dispositivi di destinazione
-// trovati con la utility apposita
-constexpr uint8_t ESP_NOW_RECEIVER[] = { 0x08, 0xd1, 0xf9, 0x99, 0x2d, 0x84 };
-
 #define DHTPIN 13
 #define DHTTYPE DHT11
 
@@ -27,9 +22,7 @@ void setup() {
   pinMode(Gas_2, INPUT);
 }
 
-
 void loop() {
-  
   h   = dht.readHumidity();
   t   = dht.readTemperature();
   g_1 = analogRead(Gas_1);
